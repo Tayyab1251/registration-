@@ -26,8 +26,8 @@ include 'public\views\header.php';
 <?php endif; ?>
 
 <!-- SigUp form -->
-
-<h1 class="title py-4 text-primary text-center">User SignUp</h1>
+<div class="container">
+<h1 class="title py-4 text-primary text-center">User SignUp Page</h1>
 <form action="public\views\signup.php" method="post">
   <div class="mb-3">
     <label for="username" class="form-label">Username</label>
@@ -44,5 +44,6 @@ include 'public\views\header.php';
   </div>
   <button type="submit" class="btn btn-primary w-100">Signup</button>
 </form>
+</div>
 
 <?php include 'public\views\footer.php'; ?>

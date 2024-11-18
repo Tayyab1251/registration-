@@ -1,6 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+}
+/* Custom styles for the sidebar */
+.sidebar {
+  height: 100vh;
+  background-color: #343a40;
+}
+.sidebar a {
+  color: white;
+}
+.sidebar a:hover {
+  background-color: #495057;
+}
+.sidebar .nav-link.active {
+  background-color: #007bff;
+}
+/* For toggling sidebar */
+#wrapper.toggled .sidebar {
+  width: 0;
+  display: none;
+}
+#wrapper.toggled #page-content-wrapper {
+  margin-left: 0;
 }
